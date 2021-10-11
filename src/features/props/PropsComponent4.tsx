@@ -1,8 +1,9 @@
 import React, { FC } from 'react';
+import {State} from "./state";
 
 type Props = {
-    state: string
-    setState: (state: string) => void
+    state: State
+    setState: (state: State) => void
 }
 const PropsComponent4: FC<Props> = ({ state, setState }) => {
 
@@ -13,16 +14,16 @@ const PropsComponent4: FC<Props> = ({ state, setState }) => {
             ---------
         </div>
         <div>
-            { state }
+            { state.text }
         </div>
         <div>
             ---------
         </div>
         <div>
             <input
-                value={state}
+                value={state.text}
                 onChange={(value) => {
-                    setState(value.target.value)
+                    setState({ ...state, text: value.target.value})
                 }}
             />
         </div>

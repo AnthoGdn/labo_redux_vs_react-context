@@ -1,9 +1,10 @@
 import React, { FC } from 'react';
 import PropsComponent4 from "./PropsComponent4";
+import {State} from "./state";
 
 type Props = {
-    state: string
-    setState: (state: string) => void
+    state: State
+    setState: (state: State) => void
 }
 const PropsComponent3: FC<Props> = ({ state, setState }) => {
 

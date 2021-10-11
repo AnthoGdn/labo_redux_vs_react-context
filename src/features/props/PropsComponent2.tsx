@@ -1,12 +1,16 @@
-import React from 'react';
+import React, { FC } from 'react';
+import {State} from "./state";
 
+type Props = {
+    state: State
+}
 
-const PropsComponent2 = () => {
+const PropsComponent2: FC<Props> = ({ state }) => {
 
     console.log('PropsComponent2')
 
     return <>
-        Layout
+        Layout: { state.text }
     </>
 }
 
