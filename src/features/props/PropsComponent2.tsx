@@ -7,7 +7,7 @@ type Props = {
 
 const PropsComponent2: FC<Props> = ({ state }) => {
 
-    console.log('PropsComponent2')
+    console.log('Rerender PropsComponent2')
 
     return <div className="component2">
         State: { state.text }

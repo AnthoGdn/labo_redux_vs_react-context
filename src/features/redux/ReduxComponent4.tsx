@@ -6,7 +6,7 @@ const ReduxComponent4: FC = () => {
     const text = useAppSelector(selectText);
     const dispatch = useAppDispatch();
 
-    console.log('ReduxComponent4')
+    console.log('Rerender ReduxComponent4')
 
     return <div className="component4">
         <div>

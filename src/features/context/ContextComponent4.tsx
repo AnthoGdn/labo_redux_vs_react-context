@@ -4,7 +4,7 @@ import {Context} from "./ContextComponent1";
 const ContextComponent4: FC = () => {
     const { text, setText } = useContext(Context)
 
-    console.log('ContextComponent4')
+    console.log('Rerender ContextComponent4')
 
     return <div className="component4">
         <div>

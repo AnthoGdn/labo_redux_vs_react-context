@@ -6,7 +6,7 @@ import {selectText} from "./textSlice";
 const ReduxComponent2 = () => {
     const text = useAppSelector(selectText);
 
-    console.log('ReduxComponent2')
+    console.log('Rerender ReduxComponent2')
 
     return <div className="component2">
         State: { text }

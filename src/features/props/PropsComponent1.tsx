@@ -7,7 +7,7 @@ import {State} from "./state";
 const PropsComponent1 = () => {
     const [state, setState] = useState<State>({ text: 'My state' })
 
-    console.log('PropsComponent1')
+    console.log('Rerender PropsComponent1')
 
     return <div className="tool-container tool-container__props">
         <h1>Props</h1>

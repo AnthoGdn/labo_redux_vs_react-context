@@ -17,7 +17,7 @@ export const Context = createContext(initialContext)
 const ContextComponent1 = () => {
     const [text, setText] = useState(initialContext.text)
 
-    console.log('ContextComponent1')
+    console.log('Rerender ContextComponent1')
 
     return <Context.Provider value={{text, setText}}>
         <div className="tool-container tool-container__context">

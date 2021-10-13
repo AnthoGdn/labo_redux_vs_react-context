@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React, {FC, useEffect} from 'react';
 import PropsComponent4 from "./PropsComponent4";
 import {State} from "./state";
 
@@ -8,7 +8,11 @@ type Props = {
 }
 const PropsComponent3: FC<Props> = ({ state, setState }) => {
 
-    console.log('PropsComponent3')
+    console.log('Rerender PropsComponent3')
+
+    useEffect(() => {
+        console.log('PropsComponent3 request an api via http.')
+    }, [])
 
     return <PropsComponent4 state={state} setState={setState} />
 }
