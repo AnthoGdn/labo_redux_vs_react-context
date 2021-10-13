@@ -1,10 +1,12 @@
 # Purpose
-It's demonstration of "rerendering" when we use React Context or Redux.
+It's a demonstration of "rerendering" when we use React Context or Redux.
 
 There is one page contains 3 components with the same feature.
-One uses React props, an other uses React contexter and the last one uses Redux.
+One uses React props, another uses React contexte and the last one uses Redux.
 
 We can open the browser console to see every console.log where we change the state of one component.
+
+We can observe that with Redux, React doesn't rerender Component1 and Component3 because they are not branch to Redux.
 
 # Screens
 ![Demo screenshot](doc/context-vs-redux-screenshot.png)
