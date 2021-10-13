@@ -1,3 +1,20 @@
+# Purpose
+It's demonstration of "rerendering" when we use React Context or Redux.
+
+There is one page contains 3 components with the same feature.
+One uses React props, an other uses React contexter and the last one uses Redux.
+
+We can open the browser console to see every console.log where we change the state of one component.
+
+# Screens
+![Demo screenshot](doc/context-vs-redux-screenshot.png)
+
+# Versions
+Tested with:
+- Node v14.17.6
+- Yarn 1.22.10
+
+# Manual
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
