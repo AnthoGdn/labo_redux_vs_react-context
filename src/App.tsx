@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="App">
         <PropsComponent1 />
-        <ReduxComponent1 />
         <ContextComponent1 />
+        <ReduxComponent1 />
     </div>
   );
 }

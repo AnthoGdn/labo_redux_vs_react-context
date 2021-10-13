@@ -7,9 +7,9 @@ const ContextComponent2 = () => {
 
     console.log('ContextComponent2')
 
-    return <>
-        Layout: { text }
-    </>
+    return <div className="component2">
+        State: { text }
+    </div>
 }
 
 export default ContextComponent2

@@ -8,12 +8,12 @@ const ReduxComponent4: FC = () => {
 
     console.log('ReduxComponent4')
 
-    return <div>
+    return <div className="component4">
         <div>
             ---------
         </div>
         <div>
-            { text }
+            State { text }
         </div>
         <div>
             ---------

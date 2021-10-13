@@ -20,8 +20,11 @@ const ContextComponent1 = () => {
     console.log('ContextComponent1')
 
     return <Context.Provider value={{text, setText}}>
-        <ContextComponent2 />
-        <ContextComponent3 />
+        <div className="tool-container tool-container__context">
+            <h1>React Context</h1>
+            <ContextComponent2 />
+            <ContextComponent3 />
+        </div>
     </Context.Provider>
 }
 

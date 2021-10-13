@@ -8,9 +8,9 @@ const ReduxComponent2 = () => {
 
     console.log('ReduxComponent2')
 
-    return <>
-        Layout: { text }
-    </>
+    return <div className="component2">
+        State: { text }
+    </div>
 }
 
 export default ReduxComponent2

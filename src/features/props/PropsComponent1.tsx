@@ -9,10 +9,11 @@ const PropsComponent1 = () => {
 
     console.log('PropsComponent1')
 
-    return <>
+    return <div className="tool-container tool-container__props">
+        <h1>Props</h1>
         <PropsComponent2 state={state} />
         <PropsComponent3 state={state} setState={setState} />
-        </>
+        </div>
 }
 
 export default PropsComponent1

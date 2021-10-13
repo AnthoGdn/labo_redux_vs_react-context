@@ -7,10 +7,11 @@ const ReduxComponent1 = () => {
 
     console.log('ReduxComponent1')
 
-    return <>
+    return <div className="tool-container tool-container__redux">
+        <h1>Redux</h1>
         <ReduxComponent2 />
         <ReduxComponent3 />
-        </>
+    </div>
 }
 
 export default ReduxComponent1

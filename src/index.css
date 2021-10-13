@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.tool-container {
+  margin: 1em;
+  padding: 1em;
+  border: black 2px solid;
+}
+
+.tool-container__props {
+  border-color: #61dafb;
+}
+
+.tool-container__context {
+  border-color: orange;
+}
+
+.tool-container__redux {
+  border-color: #6a43a9;
+}
+
+.component2 {
+  background: lightgray;
+  margin-bottom: 1em;
+}
+
+.component4 {
+  background: lightgray;
+
+}

@@ -9,12 +9,12 @@ const PropsComponent4: FC<Props> = ({ state, setState }) => {
 
     console.log('PropsComponent4')
 
-    return <div>
+    return <div className="component4">
         <div>
             ---------
         </div>
         <div>
-            { state.text }
+            State: { state.text }
         </div>
         <div>
             ---------

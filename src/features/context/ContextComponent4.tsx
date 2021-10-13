@@ -6,12 +6,12 @@ const ContextComponent4: FC = () => {
 
     console.log('ContextComponent4')
 
-    return <div>
+    return <div className="component4">
         <div>
             ---------
         </div>
         <div>
-            { text }
+            State { text }
         </div>
         <div>
             ---------

@@ -9,9 +9,9 @@ const PropsComponent2: FC<Props> = ({ state }) => {
 
     console.log('PropsComponent2')
 
-    return <>
-        Layout: { state.text }
-    </>
+    return <div className="component2">
+        State: { state.text }
+    </div>
 }
 
 export default PropsComponent2
