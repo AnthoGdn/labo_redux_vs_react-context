@@ -11,6 +11,17 @@ We can observe that with Redux, React doesn't rerender Component1 and Component3
 # Screens
 ![Demo screenshot](doc/context-vs-redux-screenshot.png)
 
+# Representations of the architecture
+## State shared by Props
+![Demo screenshot](doc/shared-with-props.drawio.png)
+
+## State shared by React Context
+![Demo screenshot](doc/shared-with-context.drawio.png)
+
+## State shared by State
+![Demo screenshot](doc/shared-with-redux.drawio.png)
+
+
 # Versions
 Tested with:
 - Node v14.17.6
