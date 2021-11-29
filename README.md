@@ -1,8 +1,8 @@
 # Purpose
-It's a demonstration of "rerendering" when we use React Context or Redux.
+It's a demonstration of "rerendering" when we use Props, React Context and Redux.
 
 There is one page contains 3 components with the same feature.
-One uses React props, another uses React contexte and the last one uses Redux.
+One uses React props, another uses React context and the last one uses Redux.
 
 We can open the browser console to see every console.log where we change the state of one component.
 
