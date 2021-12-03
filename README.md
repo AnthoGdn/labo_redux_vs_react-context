@@ -1,6 +1,10 @@
 # Purpose
 It's a demonstration of "rerendering" when we use Props, React Context and Redux.
 
+You can find my article for more explanation. 
+
+[React Context or Redux? What's difference about rerendering (performance)?](https://dev.to/anthogdn/react-context-or-redux-whats-difference-about-rerendering-performance-3kck)
+
 There is one page contains 3 components with the same feature.
 One uses React props, another uses React context and the last one uses Redux.
 
